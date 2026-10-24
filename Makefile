@@ -48,7 +48,7 @@ $(OPT)/src/%.o: $(SRC_DIR)/%.c
 	@mkdir -p $(dir $@)
 	$(CC) $(COMMON) $(OPT_FLAGS) -c $< -o $@
 
-$(OPT)/test/%.o: $(TEST_DIR)/%.c
+$(OPT)/tests/%.o: $(TEST_DIR)/%.c
 	@mkdir -p $(dir $@)
 	$(CC) $(COMMON) $(OPT_FLAGS) -c $< -o $@
 
