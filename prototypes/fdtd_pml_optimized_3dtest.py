@@ -1,5 +1,3 @@
-# écrit par Benjamin Tedrowe, btedrowe@outlook.com
-
 import numpy as np
 
 N = 50
